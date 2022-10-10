@@ -14,7 +14,7 @@ public class EmployeeComparatorTest {
 		EmployeeNameComparator namecom = new EmployeeNameComparator();
 		EmpolyeeCityComparator citycom = new EmpolyeeCityComparator();
 		
-		TreeSet ts = new TreeSet(idcom);
+		TreeSet ts = new TreeSet(namecom);
 		
 		ts.add(e3);
 		ts.add(e1);
